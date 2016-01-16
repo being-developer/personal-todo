@@ -95,7 +95,7 @@ app.factory('auth', ['$http', '$window', '$rootScope','$state', function($http, 
             });
         }
 
-        islogIn:function(){
+        ,islogIn:function(){
 
             var token=auth.getToken();
             if(token){
